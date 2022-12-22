@@ -285,7 +285,7 @@ table {
 		pointer-events: none;
 	}
 }*/
-
+.morespace {display:none;}
 .manufacturers-subtitle {margin-top:20px!important; padding-top:30px!important; margin-bottom:-10px;}
 .mobile-menu {
 	height: 76px;
@@ -786,6 +786,7 @@ h3.nordic {margin-top:26px;}
 
 }
   @media screen and (min-width: 1190px) {
+    .morespace {display:block;}
     .ring-one {margin-top:-1.1vw;}
 
     .about-subtitle {margin-bottom: -.8vw;}
